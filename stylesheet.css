@@ -1,4 +1,4 @@
-html, body, section, ul, li {
+html, body, section, ul, li, button {
   border: 0;
   margin: 0;
   outline: 0;
@@ -31,4 +31,267 @@ ul {
 body {
   font-family: sans-serif;
   background: lightgray;
+}
+
+
+.game-area {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.dealer-area {
+
+}
+
+.dealer-cards {
+  background: yellow;
+  width: 350px;
+  margin: 0 auto;
+}
+
+.dealer-cards > li {
+  float: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 50px;
+  margin-right: -50px;
+}
+
+.ace-hearts {
+  background-image: url(./cards/ace-hearts.png);
+  background-size: cover;
+}
+.two-hearts {
+  background-image: url(./cards/two-hearts.png);
+  background-size: cover;
+}
+.three-hearts {
+  background-image: url(./cards/three-hearts.png);
+  background-size: cover;
+}
+.four-hearts {
+  background-image: url(./cards/four-hearts.png);
+  background-size: cover;
+}
+.five-hearts {
+  background-image: url(./cards/five-hearts.png);
+  background-size: cover;
+}
+.six-hearts {
+  background-image: url(./cards/six-hearts.png);
+  background-size: cover;
+}
+.seven-hearts {
+  background-image: url(./cards/seven-hearts.png);
+  background-size: cover;
+}
+.eight-hearts {
+  background-image: url(./cards/eight-hearts.png);
+  background-size: cover;
+}
+.nine-hearts {
+  background-image: url(./cards/nine-hearts.png);
+  background-size: cover;
+}
+.ten-hearts {
+  background-image: url(./cards/ten-hearts.png);
+  background-size: cover;
+}
+.jack-hearts {
+  background-image: url(./cards/jack-hearts.png);
+  background-size: cover;
+}
+.queen-hearts {
+  background-image: url(./cards/queen-hearts.png);
+  background-size: cover;
+}
+.king-hearts {
+  background-image: url(./cards/king-hearts.png);
+  background-size: cover;
+}
+.ace-clubs {
+  background-image: url(./cards/ace-clubs.png);
+  background-size: cover;
+}
+.two-clubs {
+  background-image: url(./cards/two-clubs.png);
+  background-size: cover;
+}
+.three-clubs {
+  background-image: url(./cards/three-clubs.png);
+  background-size: cover;
+}
+.four-clubs {
+  background-image: url(./cards/four-clubs.png);
+  background-size: cover;
+}
+.five-clubs {
+  background-image: url(./cards/five-clubs.png);
+  background-size: cover;
+}
+.six-clubs {
+  background-image: url(./cards/six-clubs.png);
+  background-size: cover;
+}
+.seven-clubs {
+  background-image: url(./cards/seven-clubs.png);
+  background-size: cover;
+}
+.eight-clubs {
+  background-image: url(./cards/eight-clubs.png);
+  background-size: cover;
+}
+.nine-clubs {
+  background-image: url(./cards/nine-clubs.png);
+  background-size: cover;
+}
+.ten-clubs {
+  background-image: url(./cards/ten-clubs.png);
+  background-size: cover;
+}
+.jack-clubs {
+  background-image: url(./cards/jack-clubs.png);
+  background-size: cover;
+}
+.queen-clubs {
+  background-image: url(./cards/queen-clubs.png);
+  background-size: cover;
+}
+.king-clubs {
+  background-image: url(./cards/king-clubs.png);
+  background-size: cover;
+}
+.ace-spades {
+  background-image: url(./cards/ace-spades.png);
+  background-size: cover;
+}
+.two-spades {
+  background-image: url(./cards/two-spades.png);
+  background-size: cover;
+}
+.three-spades {
+  background-image: url(./cards/three-spades.png);
+  background-size: cover;
+}
+.four-spades {
+  background-image: url(./cards/four-spades.png);
+  background-size: cover;
+}
+.five-spades {
+  background-image: url(./cards/five-spades.png);
+  background-size: cover;
+}
+.six-spades {
+  background-image: url(./cards/six-spades.png);
+  background-size: cover;
+}
+.seven-spades {
+  background-image: url(./cards/seven-spades.png);
+  background-size: cover;
+}
+.eight-spades {
+  background-image: url(./cards/eight-spades.png);
+  background-size: cover;
+}
+.nine-spades {
+  background-image: url(./cards/nine-spades.png);
+  background-size: cover;
+}
+.ten-spades {
+  background-image: url(./cards/ten-spades.png);
+  background-size: cover;
+}
+.jack-spades {
+  background-image: url(./cards/jack-spades.png);
+  background-size: cover;
+}
+.queen-spades {
+  background-image: url(./cards/queen-spades.png);
+  background-size: cover;
+}
+.king-spades {
+  background-image: url(./cards/king-spades.png);
+  background-size: cover;
+}
+.ace-diamonds {
+  background-image: url(./cards/ace-diamonds.png);
+  background-size: cover;
+}
+.two-diamonds {
+  background-image: url(./cards/two-diamonds.png);
+  background-size: cover;
+}
+.three-diamonds {
+  background-image: url(./cards/three-diamonds.png);
+  background-size: cover;
+}
+.four-diamonds {
+  background-image: url(./cards/four-diamonds.png);
+  background-size: cover;
+}
+.five-diamonds {
+  background-image: url(./cards/five-diamonds.png);
+  background-size: cover;
+}
+.six-diamonds {
+  background-image: url(./cards/six-diamonds.png);
+  background-size: cover;
+}
+.seven-diamonds {
+  background-image: url(./cards/seven-diamonds.png);
+  background-size: cover;
+}
+.eight-diamonds {
+  background-image: url(./cards/eight-diamonds.png);
+  background-size: cover;
+}
+.nine-diamonds {
+  background-image: url(./cards/nine-diamonds.png);
+  background-size: cover;
+}
+.ten-diamonds {
+  background-image: url(./cards/ten-diamonds.png);
+  background-size: cover;
+}
+.jack-diamonds {
+  background-image: url(./cards/jack-diamonds.png);
+  background-size: cover;
+}
+.queen-diamonds {
+  background-image: url(./cards/queen-diamonds.png);
+  background-size: cover;
+}
+.king-diamonds {
+  background-image: url(./cards/king-diamonds.png);
+  background-size: cover;
+}
+
+.deck {
+
+}
+
+.deal-cards-button {
+
+}
+
+.deck-cards {
+
+}
+
+.deck-cards > li {
+
+}
+
+.player-area {
+
+}
+
+.player-cards {
+
+}
+
+.player-cards > li {
+
 }
