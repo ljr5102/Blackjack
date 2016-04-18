@@ -35,18 +35,29 @@ body {
 
 
 .game-area {
+  background-image: url(./images/blackjack-table.png);
+  background-size: auto;
   width: 700px;
+  height: 450px;
+  margin: 0 auto;
+}
+
+.game-area-playing {
+  z-index: -1;
+  background-image: url(./images/blackjack-table-playing.png);
+  background-size: auto;
+  width: 700px;
+  height: 450px;
   margin: 0 auto;
 }
 
 .dealer-area {
-
 }
 
 .dealer-cards {
-  background: yellow;
   width: 350px;
   margin: 0 auto;
+  padding: 20px 0px;
 }
 
 .dealer-cards > li {
@@ -57,6 +68,105 @@ body {
   padding-right: 15px;
   width: 50px;
   margin-right: -50px;
+}
+
+.deck {
+  margin-bottom: 20px;
+}
+
+.game-buttons {
+  width: 500px;
+  margin: 0 auto;
+}
+
+button:hover {
+  background: black;
+  color: lightgreen;
+}
+
+.deal-cards-button {
+  background: lightgreen;
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 3px;
+  border: 1px solid black;
+  cursor: pointer;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  display: block;
+  top: 0px;
+}
+
+.hit-button {
+  float: left;
+  background: lightgreen;
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 3px;
+  border: 1px solid black;
+  cursor: pointer;
+  margin: auto;
+  margin-left: 90px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.stay-button {
+  float: right;
+  background: lightgreen;
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 3px;
+  border: 1px solid black;
+  cursor: pointer;
+  margin: auto;
+  margin-right: 90px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.deck-cards {
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.deck-cards > li {
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 50px;
+}
+
+.player-area {
+
+}
+
+.player-cards {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.player-cards > li {
+  float: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 50px;
+  margin-right: -50px;
+}
+
+.game-over {
+  margin-left: 70px;
+  color: white;
+  font-weight: bold;
+  text-align: right;
 }
 
 .ace-hearts {
@@ -268,30 +378,8 @@ body {
   background-size: cover;
 }
 
-.deck {
 
-}
-
-.deal-cards-button {
-
-}
-
-.deck-cards {
-
-}
-
-.deck-cards > li {
-
-}
-
-.player-area {
-
-}
-
-.player-cards {
-
-}
-
-.player-cards > li {
-
+.face-down {
+  background-image: url(./cards/face-down-card.png);
+  background-size: cover;
 }

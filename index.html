@@ -4,27 +4,24 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="./stylesheet.css">
+    <script src="./lib/freeDOM.js"></script>
+    <script src="./lib/deck.js"></script>
+    <script src="./lib/hand.js"></script>
+    <script src="./lib/view.js"></script>
+    <script src="./lib/game.js"></script>
   </head>
   <body>
     <section class="game-area">
       <section class="dealer-area">
-        <ul class="dealer-cards group">
-          <li class="jack-spades"></li>
-          <li class="ace-hearts"></li>
-          <li class="nine-hearts"></li>
-        </ul>
+        <ul class="dealer-cards group"></ul>
       </section>
       <section class="deck">
-        <button class="deal-cards-button">Deal In</button>
-        <ul class="deck-cards">
-          <li>DECK</li>
-        </ul>
+        <div class="game-buttons group">
+          <button class="deal-cards-button">Deal In</button>
+        </div>
       </section>
       <section class="player-area">
-        <ul class="player-cards">
-          <li>Seven Spades</li>
-          <li>Two Diamonds</li>
-        </ul>
+        <ul class="player-cards group"></ul>
       </section>
     </section>
   </body>
