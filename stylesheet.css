@@ -35,21 +35,25 @@ body {
 
 .bet-label {
   position: absolute;
+  left: 5px;
   bottom: 50px;
   color: white;
 }
 
 .num-chips {
   position: absolute;
+  left: 5px;
   bottom: 10px;
   color: white;
 }
 
 .player-bet {
+  width: 40px;
   border: 1px solid black;
   background: white;
   display: block;
   position: absolute;
+  left: 5px;
   bottom: 30px;
 }
 
