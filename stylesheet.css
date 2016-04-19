@@ -40,6 +40,8 @@ body {
   width: 700px;
   height: 450px;
   margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .game-area-playing {
@@ -382,4 +384,34 @@ button:hover {
 .face-down {
   background-image: url(./cards/face-down-card.png);
   background-size: cover;
+}
+
+.footer {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.footer-links {
+  margin: 0 auto;
+  width: 252px;
+}
+
+.footer-links > li {
+  float: left;
+  padding: 0px 5px;
+  margin: 0px 10px;
+}
+
+.footer-links > li > a {
+  padding: 2px;
+  display: block;
+}
+
+.footer-links > li > a:hover {
+  background: yellow;
+  border-radius: 3px;
+}
+
+.footer-links > li > a > img {
+  width: 50px;
 }
