@@ -1,4 +1,4 @@
-html, body, section, ul, li, button, input, div {
+html, body, section, ul, li, a, button, input, div, article {
   border: 0;
   margin: 0;
   outline: 0;
@@ -31,6 +31,24 @@ ul {
 body {
   font-family: sans-serif;
   background: lightgray;
+}
+
+.news-article {
+  width: 250px;
+  position: absolute;
+  top: 20px;
+  left: 2px;
+  background: white;
+  border: 1px solid black;
+  padding: 15px 10px;
+}
+
+.news-article > a {
+  display: block;
+  color: blue;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .bet-label {
