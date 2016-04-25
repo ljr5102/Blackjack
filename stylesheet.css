@@ -207,6 +207,13 @@ button:hover {
   margin-right: -50px;
 }
 
+.player-score {
+  color: white;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
 .game-over {
   margin-left: 70px;
   color: white;
