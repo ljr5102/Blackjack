@@ -1,4 +1,4 @@
-html, body, section, ul, li, a, button, input, div, article {
+html, body, section, ul, li, a, button, input, div, article, header {
   border: 0;
   margin: 0;
   outline: 0;
@@ -33,10 +33,19 @@ body {
   background: lightgray;
 }
 
+.heading {
+  margin: 0 auto;
+  text-align: center;
+  background: #0B1C0A;
+  font-size: 36px;
+  color: white;
+  width: 700px;
+}
+
 .news-article {
   width: 250px;
   position: absolute;
-  top: 20px;
+  top: 41px;
   left: 2px;
   background: white;
   border: 1px solid black;
@@ -82,7 +91,7 @@ body {
   width: 700px;
   height: 450px;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 20px;
   position: relative;
 }
